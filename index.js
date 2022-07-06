@@ -3,7 +3,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 //imports
-import userRoutes from '../backend/Routes/userRoutes.js';
+import userRoutes from './Routes/userRoutes.js';
 import todoRouter from './Routes/todoRoutes.js';
 // config
 dotenv.config();
